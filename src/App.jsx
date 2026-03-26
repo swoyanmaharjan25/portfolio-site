@@ -9,7 +9,7 @@ export default function App() {
     description: "Designed and built a modern responsive website for a coffee brand.",
     tags: ["React", "Responsive", "UI Design"],
     image: project1,
-    live: "#",
+    live: "https://www.pinterest.com/SwoyanmaharjanOfficial/",
     github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
   {
@@ -17,7 +17,7 @@ export default function App() {
     description: "Created logo, color system, and visual branding for a client project.",
     tags: ["Branding", "Logo", "Design"],
     image: project2,
-    live: "#",
+    live: "https://www.pinterest.com/SwoyanmaharjanOfficial/",
     github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
   {
@@ -25,7 +25,7 @@ export default function App() {
     description: "Built a clean personal portfolio to showcase projects and skills.",
     tags: ["React", "Tailwind", "Frontend"],
     image: project3,
-    live: "#",
+    live: "https://www.pinterest.com/SwoyanmaharjanOfficial/",
     github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
 ];
