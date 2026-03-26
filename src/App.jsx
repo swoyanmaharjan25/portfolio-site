@@ -151,22 +151,22 @@ export default function App() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="mailto:your@email.com"
+              href="maharjanswoyan25@gmail.com"
               className="rounded-2xl bg-black px-6 py-3 text-sm font-medium text-white"
             >
-              your@email.com
+              maharjanswoyan25@gmail.com
             </a>
             <a
               href="#"
               className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
             >
-              LinkedIn
+              https://np.linkedin.com/in/swoyan-maharjan-b466a42b4
             </a>
             <a
               href="#"
               className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
             >
-              GitHub
+              https://github.com/swoyanmaharjan25
             </a>
           </div>
         </div>
