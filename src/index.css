@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap");
 @import "tailwindcss";
 
 :root {
-  font-family: "Manrope", sans-serif;
+  font-family: "Public Sans", sans-serif;
   color: rgba(247, 241, 255, 0.92);
   background:
     radial-gradient(circle at top, rgba(255, 255, 255, 0.2), transparent 30%),
@@ -276,9 +276,8 @@ img {
 
 .hero-title {
   margin-top: 10px;
-  font-family: "Instrument Serif", serif;
   font-size: clamp(4rem, 10vw, 7.6rem);
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: -0.05em;
   max-width: 10ch;
 }
@@ -361,8 +360,8 @@ img {
 
 .stat-value {
   margin: 0 0 8px;
-  font-family: "Instrument Serif", serif;
   font-size: clamp(2rem, 4vw, 3.3rem);
+  font-weight: 800;
 }
 
 .hero-visual {
@@ -472,8 +471,7 @@ img {
   margin-top: 10px;
   max-width: 12ch;
   font-size: clamp(1.8rem, 4vw, 3rem);
-  font-family: "Instrument Serif", serif;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .mini-glass-card {
@@ -504,9 +502,8 @@ img {
 .approach-copy h2,
 .contact-panel h2 {
   max-width: 12ch;
-  font-family: "Instrument Serif", serif;
   font-size: clamp(2.4rem, 5vw, 4.4rem);
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: -0.04em;
 }
 
