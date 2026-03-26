@@ -1,20 +1,32 @@
 import hero from "./assets/hero.png";
+import project1 from "./assets/project1.png";
+import project2 from "./assets/project2.png";
+import project3 from "./assets/project3.png";
 export default function App() {
   const projects = [
   {
     title: "Coffee Shop Website",
     description: "Designed and built a modern responsive website for a coffee brand.",
     tags: ["React", "Responsive", "UI Design"],
+    image: project1,
+    live: "#",
+    github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
   {
     title: "Brand Identity Design",
     description: "Created logo, color system, and visual branding for a client project.",
     tags: ["Branding", "Logo", "Design"],
+    image: project2,
+    live: "#",
+    github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
   {
     title: "Portfolio Website",
     description: "Built a clean personal portfolio to showcase projects and skills.",
     tags: ["React", "Tailwind", "Frontend"],
+    image: project3,
+    live: "#",
+    github: "https://github.com/swoyanmaharjan25/portfolio-site",
   },
 ];
 
@@ -103,13 +115,40 @@ export default function App() {
               className="rounded-[2rem] border border-neutral-800 bg-neutral-900 p-6 shadow-xl transition hover:-translate-y-1"
             ><div className="overflow-hidden rounded-[1.5rem]">
   <img
-    src={hero}
-    alt="project"
-    className="aspect-[4/3] w-full object-cover transition hover:scale-110"
-  />
+  src={project.image}
+  alt={project.title}
+  className="aspect-[4/3] w-full object-cover rounded-[1.5rem] transition hover:scale-110"
+/>
 </div>
               <h3 className="mt-6 text-xl font-semibold">{project.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-neutral-300">{project.description}</p>
+
+<p className="mt-3 text-sm leading-7 text-neutral-300">
+  {project.description}
+</p>
+
+{/* 🔥 ADD BUTTONS HERE */}
+<div className="mt-4 flex gap-3">
+  <a
+    href={project.live}
+    target="_blank"
+    rel="noreferrer"
+    className="text-sm px-4 py-2 rounded-lg bg-white text-black hover:opacity-80"
+  >
+    Live
+  </a>
+
+  <a
+    href={project.github}
+    target="_blank"
+    rel="noreferrer"
+    className="text-sm px-4 py-2 rounded-lg border border-neutral-700 hover:bg-neutral-800"
+  >
+    GitHub
+  </a>
+</div>
+
+{/* existing tags */}
+<div className="mt-5 flex flex-wrap gap-2">
               <div className="mt-5 flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
