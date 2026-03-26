@@ -139,44 +139,47 @@ export default function App() {
         </div>
       </section>
 
-      <section id="contact" className="mx-auto max-w-6xl px-6 py-20 md:px-10">
-        <div className="rounded-[2rem] bg-white p-10 text-black shadow-2xl">
-          <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">Contact</p>
-          <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
-            Let’s build something great together
-          </h2>
-          <p className="mt-4 max-w-2xl text-base leading-7 text-neutral-700">
-  Feel free to reach out via email, LinkedIn, or GitHub for collaborations, freelance
-  work, or opportunities.
-</p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <a
-    href="mailto:maharjanswoyan25@gmail.com"
-    className="rounded-2xl bg-black px-6 py-3 text-sm font-medium text-white"
-  >
-    maharjanswoyan25@gmail.com
-  </a>
+<section id="contact" className="mx-auto max-w-6xl px-6 py-20 md:px-10">
+  <div className="rounded-[2rem] bg-white p-10 text-black shadow-2xl">
+    <p className="text-sm uppercase tracking-[0.3em] text-neutral-500">Contact</p>
 
-  <a
-    href="https://np.linkedin.com/in/swoyan-maharjan-b466a42b4"
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
-  >
-    LinkedIn
-  </a>
+    <h2 className="mt-3 text-3xl font-semibold md:text-4xl">
+      Let’s build something great together
+    </h2>
 
-  <a
-    href="https://github.com/swoyanmaharjan25"
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
-  >
-    GitHub
-            </a>
-          </div>
-        </div>
-      </section>
+    <p className="mt-4 max-w-2xl text-base leading-7 text-neutral-700">
+      Feel free to reach out via email, LinkedIn, or GitHub for collaborations,
+      freelance work, or opportunities.
+    </p>
+
+    <div className="mt-8 flex flex-wrap gap-4">
+      <a
+        href="mailto:maharjanswoyan25@gmail.com"
+        className="rounded-2xl bg-black px-6 py-3 text-sm font-medium text-white"
+      >
+        maharjanswoyan25@gmail.com
+      </a>
+
+      <a
+        href="https://np.linkedin.com/in/swoyan-maharjan-b466a42b4"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="https://github.com/swoyanmaharjan25"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
+      >
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
