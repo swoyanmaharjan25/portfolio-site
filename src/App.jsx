@@ -146,27 +146,33 @@ export default function App() {
             Let’s build something great together
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-7 text-neutral-700">
-            Add your email, Instagram, LinkedIn, GitHub, or a contact form here so visitors can
-            reach you easily.
-          </p>
+  Feel free to reach out via email, LinkedIn, or GitHub for collaborations, freelance
+  work, or opportunities.
+</p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="maharjanswoyan25@gmail.com"
-              className="rounded-2xl bg-black px-6 py-3 text-sm font-medium text-white"
-            >
-              maharjanswoyan25@gmail.com
-            </a>
-            <a
-              href="#"
-              className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
-            >
-              https://np.linkedin.com/in/swoyan-maharjan-b466a42b4
-            </a>
-            <a
-              href="#"
-              className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
-            >
-              https://github.com/swoyanmaharjan25
+    href="mailto:maharjanswoyan25@gmail.com"
+    className="rounded-2xl bg-black px-6 py-3 text-sm font-medium text-white"
+  >
+    maharjanswoyan25@gmail.com
+  </a>
+
+  <a
+    href="https://np.linkedin.com/in/swoyan-maharjan-b466a42b4"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="https://github.com/swoyanmaharjan25"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-2xl border border-neutral-300 px-6 py-3 text-sm font-medium text-black"
+  >
+    GitHub
             </a>
           </div>
         </div>
